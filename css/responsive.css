@@ -1,0 +1,487 @@
+/**
+*
+* ---------------------------------------------------------------------------
+*
+* Template Name: MobileBuzz | One Page - Responsive HTML5 Business Template
+* Template URI:	http://hiknik.com/mobilebuzz
+* Author : themewarehouse
+* Description: This is One Page Responsive HTML5 business Template
+* Version : 1.0
+* 
+* --------------------------------------------------------------------------- 
+*
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .preview-demo {
+        height: 206px;
+    }
+    ul.navbar-nav li a {
+        padding: 12px 6px !important;
+    }
+    .search-icon {
+        top: 35%;
+    }
+    #search-box button {
+        bottom: 38%;
+    }
+    .feature-icon {
+        height: 75px;
+        width: 75px;
+    }
+    .feature-icon i.fa {
+        font-size: 35px;
+        height: 65px;
+        line-height: 65px;
+        width: 65px;
+    }
+    .products-box .owl-nav div {
+        left: 46%;
+    }
+    .products-box .owl-nav div.owl-next {
+        right: 46%;
+    }
+    #scrollUp {
+        bottom: 50px;
+    }
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 13px;
+    }
+    .demo-heading::before,
+    .demo-heading,
+    .demo-top-heading {
+        height: 500px;
+    }
+    canvas {
+        height: 500px;
+        width: 100%;
+    }
+    .demo-title h2 {
+        font-size: 25px;
+    }
+    .demo-top-heading h1 {
+        font-size: 40px;
+    }
+    .demo-top-heading>p {
+        font-size: 20px;
+    }
+    .preview-demo {
+        height: 157px;
+    }
+    .mobilebuzz-btn {
+        font-size: 12px;
+    }
+    .mobile-logo {
+        display: inline-block;
+        float: left;
+        text-align: left;
+    }
+    .nav.nav-tabs li a {
+        padding: 8px;
+    }
+    .logo {
+        display: none !important;
+    }
+    .search-icon {
+        left: 50%;
+        top: 25px;
+        width: 0;
+    }
+    #search-box button {
+        bottom: 38%;
+    }
+    /* Menu area */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border: 0;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    ul.navbar-nav {
+        border: 0 none;
+        text-align: left;
+        width: 100%;
+    }
+    .navbar-nav li {
+        float: none;
+    }
+    .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #fb5e1c;
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #fb5e1c;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: #fb5e1c;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar-brand {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: none;
+    }
+    .single-slider,
+    .slider-table {
+        height: 500px;
+    }
+    .slider-table-cell h2 {
+        font-size: 35px;
+    }
+    .mobilebuzz-heading p {
+        width: 500px;
+    }
+    .about-img>img {
+        padding: 40px;
+    }
+    .features-content {
+        text-align: center;
+    }
+    .feature-icon {
+        margin: 0 auto 20px;
+    }
+    .single-project {
+        width: 50%;
+    }
+    .product-details h3 {
+        font-size: 16px;
+    }
+    .product-details span {
+        font-size: 14px;
+    }
+    .newsletter-form {
+        width: 80%;
+    }
+    .copyright>p {
+        text-align: center;
+    }
+    #scrollUp {
+        bottom: 70px;
+    }
+    .mobilebuzz-heading h1 {
+        font-size: 30px;
+    }
+    #SecTimemainGallery_slides {
+        height: 350px;
+        width: 70%;
+    }
+    .about-area {
+        background: #fff;
+    }
+    .owl-carousel .owl-nav.disabled {
+        display: block;
+    }
+    .products-box .owl-nav div {
+        left: 45%;
+    }
+    .products-box .owl-nav div.owl-next {
+        right: 45%;
+    }
+    .letter {
+        font-size: 60px;
+    }
+    .cupcakeCircle {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    .demo-heading::before,
+    .demo-heading,
+    .demo-top-heading {
+        height: 500px;
+    }
+    canvas {
+        height: 500px;
+        width: 100%;
+    }
+    .demo-top-heading h1 {
+        font-size: 25px;
+    }
+    .demo-top-heading>p {
+        font-size: 16px;
+    }
+    .demo-title h2 {
+        color: #1a1a1a;
+        font-size: 20px;
+        margin: 0;
+    }
+    .preview-demo {
+        height: 132px;
+    }
+    .mobilebuzz-btn {
+        font-size: 12px;
+    }
+    .header-contact {
+        text-align: center;
+    }
+    .header-contact span {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .header-top-social-link {
+        text-align: center;
+    }
+    .slider-content .owl-nav {
+        display: none;
+    }
+    .mobile-logo {
+        display: inline-block;
+        float: left;
+        text-align: left;
+    }
+    .search-icon {
+        left: 0;
+        top: -10px;
+    }
+    /* Menu area */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border: 0;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    ul.navbar-nav {
+        border: 0 none;
+        text-align: left;
+        width: 100%;
+    }
+    .navbar-nav li {
+        float: none;
+    }
+    .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #fb5e1c;
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #fb5e1c;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: #fb5e1c;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar-brand {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: none;
+    }
+    .logo,
+    .search-icon,
+    #search-box {
+        display: none !important;
+    }
+    .mobile-logo img {
+        width: 150px;
+    }
+    .smooth-scroll {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .single-slider,
+    .slider-table {
+        height: 500px;
+    }
+    .slider-table-cell h2,
+    .about-content>h2 {
+        font-size: 20px;
+    }
+    #SecTimemainGallery_slides {
+        display: none;
+    }
+    .slider-table-cell p,
+    .mobilebuzz-heading p {
+        width: auto;
+    }
+    .mobilebuzz-heading h1 {
+        font-size: 25px;
+    }
+    .about-info {
+        display: inline-block;
+    }
+    .about-img,
+    .about-content {
+        float: none;
+        width: 100%;
+    }
+    .about-img {
+        text-align: center;
+    }
+    #SecTimemainGallery_navigation a {
+        display: block;
+        margin-bottom: 20px;
+    }
+    #SecTimemainGallery_navigation a img {
+        height: 300px;
+        width: 100%;
+    }
+    .features-content {
+        text-align: center;
+    }
+    .feature-icon {
+        margin: 0 auto 10px;
+    }
+    .mockup-holder {
+        margin-bottom: 50px;
+    }
+    .iso-nav ul li {
+        display: block;
+        float: none;
+    }
+    .single-project {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .newsletter-form button {
+        font-size: 14px;
+        left: 0;
+        position: relative;
+        right: 0;
+    }
+    .newsletter-form i.fa {
+        color: #555555;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .products-box .owl-nav div.owl-next {
+        right: 37%;
+    }
+    .products-box .owl-nav div {
+        left: 37%;
+    }
+    .copyright>p {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    #scrollUp {
+        bottom: 25px;
+    }
+    .letter {
+        font-size: 40px;
+    }
+    .cupcakeCircle {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .preview-demo {
+        height: 204px;
+    }
+    .header-contact span {
+        margin-right: 10px;
+    }
+    .search-icon,
+    #search-box {
+        display: block !important;
+    }
+    .search-icon {
+        left: 50%;
+        top: 25px;
+        width: 0;
+    }
+    #search-box input[type="search"] {
+        font-size: 30px;
+        width: 80%;
+    }
+    #search-box button {
+        bottom: 38%;
+    }
+    .products-box .owl-nav div {
+        left: 42%;
+    }
+    .products-box .owl-nav div.owl-next {
+        right: 42%;
+    }
+}
